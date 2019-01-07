@@ -1,0 +1,52 @@
+/*
+Write your variables here. All available variables can be
+found in https://github.com/iview/iview/blob/2.0/src/styles/custom.less.
+*/
+
+@import '~iview/src/styles/index.less';
+
+// Here are the variables to cover, such as:
+@primary-color: #3977fc;
+
+.ivu-modal-close {
+  font-size: 26px;
+  color: #979797;
+}
+.ivu-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+}
+.ivu-modal-footer {
+  border-top: none;
+}
+
+
+.ivu-form-item-error-tip {
+  padding-left: 20px;
+  line-height: 14px;
+  &:before {
+    position: absolute;
+    left: 0;
+    content: "×"; /* use the hex value here... */
+    font-size: 12px; 
+    color: #fff;
+    background: #e82222;
+    line-height: 0.9;
+    text-align: center;
+    display: block;
+    border: 1px solid #e82222;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+  }
+}
+.ivu-form-item-label, .ivu-input
+{
+  font-size: 14px !important;
+}
+.ivu-modal-header-inner{
+  font-size: 16px !important;
+}
+

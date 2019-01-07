@@ -1,0 +1,89 @@
+.Rectangle-11 {
+    background-color: #dbebff;
+    margin-left: 2px;
+}
+.Line-6 {
+    width: 2px;
+    min-height: 660px;
+    border: solid 1px #d2dce9;
+    float: left
+}
+.mydiv1{
+    float: right;
+    margin-right: 3%;
+    margin-top: -8px;
+}
+.mydiv2{
+    border: 1px solid #dcdfe6;
+    border-radius: 4px;
+    height: 200px;
+    width: 100%;
+}
+.mydiv4{
+    width: 4px;
+    height: 16px;
+    background-color: #3977fc;
+    float: left;
+    margin-left: 1.5%;
+}
+.mydiv5{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+/*btn*/
+.mybtn1{
+    float: right;
+    margin-right: 3%;
+    margin-top: 37px;
+    font-size:14px;
+    margin-bottom: 16px;
+}
+.mybtn2{
+    margin-left: 3%;
+    color: #3977fc;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+/*spam*/
+.myspan{
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    color: #4a4f5d;
+    font-family: PingFangSC;
+}
+.myspan1{
+    font-size: 16px;
+    margin-left: 1.5%;
+    float: left;
+}
+.myspan2{
+    margin-left:5%;
+    float: left;
+    font-size: 16px;
+    font-weight: 500;
+}
+.myspan3{
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 2px;
+}
+.myspan4{
+    font-size: 14px;
+    font-weight: normal;
+}
+.mydiv2 .ivu-select-selection {
+    border: none;
+}
+.mydiv2 .ivu-btn-text:focus {
+    box-shadow: 0px 0px 0px 0px rgba(45,140,240,.2);
+}
+.mydiv2 .ivu-select-visible .ivu-select-selection {
+    /*border-color: #57a3f3;*/
+    outline: 0;
+    box-shadow: 0 0 0 0px rgba(45,140,240,.2);
+}
+
+

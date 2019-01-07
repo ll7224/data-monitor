@@ -1,0 +1,36 @@
+@import "../styles/varibles";
+$error-hight = 14px;
+.ivu-form-item-error-tip {
+  padding-left: 20px;
+  line-height: $error-hight;
+  &:before {
+    position: absolute;
+    left: 0;
+    content: "×"; /* use the hex value here... */
+    font-size: 12px; 
+    color: #fff;
+    background: $--color-danger;
+    line-height: 0.9;
+    text-align: center;
+    display: block;
+    border: 1px solid $--color-danger;
+    width: $error-hight;
+    height: $error-hight;
+    border-radius: 100%;
+  }
+}
+.ivu-form-item-label, .ivu-input
+{
+  font-size: 14px !important;
+}
+.ivu-modal-header-inner{
+  font-size: 16px !important;
+}
+
+.ivu-select-multiple {
+  .ivu-select-item-selected {
+    &::after {
+      content:"\e955";
+    }
+  }
+}
