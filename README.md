@@ -1,7 +1,5 @@
 # greebdc-skynet-frontend
 
-Gree大数据中心 天网系统 前端
-
 ## Project setup
 ```
 npm install
